@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  padding: 40px;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  width: 80%;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.error {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.birthday {
+  color: #ff9800;
+  font-size: 1.3em;
+  font-weight: bold;
+}
